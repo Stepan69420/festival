@@ -77,3 +77,60 @@ body {
     background-color:rgb(200, 200, 200);
     margin: 0;
 }
+
+.footer {
+    padding: 16px 0 16px 0;
+}
+
+footer {
+    background: black;
+    padding: 50px 0 16px 0;
+}
+
+.social-icons {
+    font-size: 32px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.fa-facebook-f {
+    color: #4267b2;
+}
+
+.fa-twitter {
+    color: #1DA1F2;
+}
+
+.fa-youtube-play {
+    color: red;
+}
+
+.fa-instagram {
+    color: #E1306C;
+}
+
+.footer-links {
+    color: white;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    gap: 24px;
+    font-size: 20px;
+}
+
+.copyright {
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}
+
+.footer-link a:hover {
+    color: gray;
+}
+
+.footer-link a {
+    color: white;
+    text-decoration: none;
+}

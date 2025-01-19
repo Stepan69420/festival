@@ -2,9 +2,9 @@
 <html lang="cs">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Merch</title>
     <link rel="stylesheet" href="merch-styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <header>
 </header>
@@ -12,25 +12,25 @@
     <nav class="navbar">
         <ul class="nav-links">
             <li class="nav-link">
-                <a href="index.html">Home</a>
+                <a href="index.html">Domů</a>
             </li>
             <li class="nav-link">
-                <a href="index.html#about">About</a>
+                <a href="index.html#about">O nás</a>
             </li>
             <li class="nav-link">
-                <a href="tickets.html">Tickets</a>
+                <a href="tickets.html">Vstupenky</a>
             </li>
             <li class="nav-link">
-                <a href="index.html#singers">Singers</a>
+                <a href="index.html#singers">Zpěváci</a>
             </li>
             <li class="nav-link">
-                <a href="merch.html">Merch</a>
+                <a href="merch.html">Oblečení</a>
             </li>
             <li class="nav-link">
-                <a href="index.html#team">Our Team</a>
+                <a href="index.html#team">Náš tým</a>
             </li>
             <li class="nav-link">
-                <a href="index.html#contact">Contact</a>
+                <a href="index.html#contact">Kontakt</a>
             </li>
         </ul>
     </nav>
@@ -38,24 +38,59 @@
         <h2>Naše produkty</h2>
         <div class="merch-container">
             <div class="produkt">
-                <img src="images/motoriste.png" alt="Tričko">
-                <h3>Tričko</h3>
-                <p>Stylové tričko pro každého.</p>
-                <button>Přidat do košíku</button>
+                <img src="images/triko.png" alt="Tričko">
+                <h3>Košile</h3>
+                <p>Stylová košile pro každého.</p>
+                <button onclick="location.href='https://www.hranatymerch.cz/kosile-plamenacek/'">Přidat do košíku</button>
             </div>
             <div class="produkt">
-                <img src="images/lgbt.png" alt="Tričko">
+                <img src="images/triko2.png" alt="Tričko">
                 <h3>Tričko</h3>
                 <p>Stylové tričko pro každého.</p>
-                <button>Přidat do košíku</button>
+                <button onclick="location.href='https://www.hranatymerch.cz/filip-drago/'">Přidat do košíku</button>
             </div>
             <div class="produkt">
-                <img src="images/zlodej.png" alt="Tričko">
+                <img src="images/triko3.png" alt="Tričko">
                 <h3>Tričko</h3>
                 <p>Stylové tričko pro každého.</p>
-                <button>Přidat do košíku</button>
+                <button onclick="location.href='https://www.hranatymerch.cz/triko-dyzl/'">Přidat do košíku</button>
             </div>
         </div>
     </div>
+    <footer>
+        <!-- pro ikony sociálních sítí použijeme fontawesome, což jsou ikony, odkaz na knihovnu je v sekci head -->
+        <div class="social-icons">
+            <i class="fa fa-facebook-f"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-youtube-play"></i>
+        </div>
+        <nav>
+            <ul class="footer-links">
+                <li class="footer-link">
+                    <a href="index.html#home">Domů</a>
+                </li>
+                <li class="footer-link">
+                    <a href="index.html#about">O nás</a>
+                </li>
+                <li class="footer-link">
+                    <a href="tickets.html">Vstupenky</a>
+                </li>
+                <li class="footer-link">
+                    <a href="index.html#singers">Zpěváci</a>
+                </li>
+                <li class="footer-link">
+                    <a href="merch.html">Oblečení</a>
+                </li>
+                <li class="footer-link">
+                    <a href="index.html#our team">Náš tým</a>
+                </li>
+                <li class="footer-link">
+                    <a href="index.html#contact">Kontakt</a>
+                </li>
+            </ul>
+        </nav>
+        <p class="copyright">2024 @ Štěpán Javora Copyright</p>
+    </footer>
 </body>
 </html>
