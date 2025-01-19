@@ -1,0 +1,80 @@
+body
+{
+    background-color:rgb(200, 200, 200);
+    margin: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+.vstupenky {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    margin-bottom: 15px;
+    padding: 15px;
+}
+
+.vstupenky img {
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
+    margin-right: 15px;
+}
+
+.info {
+    flex-grow: 1;
+}
+
+.nazev {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+.popis {
+    font-size: 14px;
+    margin-top: 5px;
+    color: white;
+}
+
+.vstupenky button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.vstupenky button:hover {
+    background-color: darkred;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    font-size: 28px;
+    justify-content: space-evenly;
+    color: white;
+    margin: 0;
+    padding: 16px 0px 16px 0px;
+}
+
+.navbar {
+    background: black;
+
+}
+
+.nav-link a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-link a:hover {
+    color: gray;
+}
